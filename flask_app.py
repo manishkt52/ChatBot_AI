@@ -94,7 +94,7 @@ def api_chat():
 
 # Start the Flask web server
 if __name__ == "__main__":
-    # app.run(debug=True)
-    app.run()
+    app.run(debug=True)
+    # app.run()
 
 CORS(app)    
