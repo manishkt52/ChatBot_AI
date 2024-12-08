@@ -28,7 +28,7 @@ if user_input:
     # Send user input to Flask API and get the response
     try:
         # Sending the user input to the Flask API
-        response = requests.post("http://127.0.0.1:5000/api/chat", json={"user_input": user_input})
+        response = requests.post("https://chatbotai-flaskapi.onrender.com", json={"user_input": user_input})
         
         if response.status_code == 200:
             ai_response = response.json().get("response")
