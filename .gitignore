@@ -1,5 +1,8 @@
 # Ignore virtual environment directory
-venv/
+myenv/
 
 # Ignore .env file
 .env
+
+#Ignore .devcontainer file
+.devcontainer
